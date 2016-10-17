@@ -6,6 +6,9 @@ var Weather =require('Weather');
 var About =require('About');
 var Examples =require('Examples');
 
+//App CSS
+require('style!css!applicationStyles')
+
 // Load Foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation;
