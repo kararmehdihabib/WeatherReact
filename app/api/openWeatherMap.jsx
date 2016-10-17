@@ -15,6 +15,7 @@ module.exports = {
             }else{
                  
                 return res.data.main.temp;
+                debugger;
             }
         }, function(res){
         
